@@ -1,0 +1,22 @@
+{
+    "certificate": {
+        "country": "US",
+        "state": "California",
+        "locality": "San Francisco",
+        "organization": "My Company",
+        "common_name": "Kaiser Zheng",
+        "validity_days": 3650
+    },
+    "signature": {
+        "location": "Python Script",
+        "reason": "Document Authentication",
+        "subfilter": "PAdES"
+    },
+    "timestamp": {
+        "enabled": false,
+        "tsa_url": "http://timestamp.digicert.com"
+    },
+    "files": {
+        "pkcs12": "signer.p12"
+    }
+}

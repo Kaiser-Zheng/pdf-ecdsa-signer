@@ -1,0 +1,19 @@
+[project]
+name = "pdf-ecdsa-signer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=46.0.3",
+    "pip>=25.3",
+    "pyhanko>=0.32.0",
+    "pyhanko-certvalidator>=0.29.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.11.0",
+    "isort>=7.0.0",
+    "mypy>=1.19.0",
+]
